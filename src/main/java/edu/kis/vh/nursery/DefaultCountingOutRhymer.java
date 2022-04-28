@@ -2,13 +2,20 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
-    public static final int startNumber = -1;
-    public static final int finalNumber = 11;
-    public static final int counter = 12;
+    private static final int startNumber = -1;
+    private static final int finalNumber = 11;
+    private static final int counter = 12;
     private final int[] numbers = new int[counter];
 
-    public int total = -1;
+    private int total = -1;
 
+    public int getTotal() {
+        return total;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
 
     public void countIn(int in) {
         if (!isFull())
