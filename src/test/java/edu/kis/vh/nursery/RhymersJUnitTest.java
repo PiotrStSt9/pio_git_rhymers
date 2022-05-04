@@ -76,3 +76,4 @@ public class RhymersJUnitTest {
     }
 
 }
+//wszystkie testy przebiegły poprawnie
